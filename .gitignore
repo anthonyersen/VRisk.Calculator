@@ -1,0 +1,6 @@
+/.vs/*
+**/bin/*
+**/obj/*
+/whg-app/mongo/data/db
+/data
+*.user

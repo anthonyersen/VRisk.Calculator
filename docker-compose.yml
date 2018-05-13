@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vrisk.calculator.api:
+    image: ${DOCKER_REGISTRY}vriskcalculatorapi
+    build:
+      context: .
+      dockerfile: VRisk.Calculator.Api/Dockerfile
